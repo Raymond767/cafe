@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background: #444;
+    padding: 1rem;
+}
+h1,h2,button,footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* En-tete */
+header{
+    color: whitesmoke;
+    overflow: auto;
+    line-height: 1,7em;
+    background: fixed rgb(61, 60, 60);
+    padding: 0,9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header ul{
+    list-style-type: none;
+    float: right;
+}
+h1{
+    float: left;
+    margin-left: 1rem;
+}
+header ul li {
+    padding: 1rem;
+    float: left;
+}
+header ul li a{
+    color: whitesmoke;
+} 
+.active{
+    background-color: #555;
+    padding: 1rem;
+}
+
+/* part1 */
+.part1{
+    color: whitesmoke;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 9rem 0;
+    height: 85vh;
+    background: url(cafe1.jpg) center center;
+}
+.block{
+    margin: auto;
+    background: black;
+    width: 140px;
+    height: 0.7rem;
+}
+.part1 section{
+    max-width: 600PX;
+    display: block;
+    margin: auto;
+}
+.part1 section h2{
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+.button {
+    color: #222;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+}
+
+/* part2 */
+.part2{
+    text-align: center;
+    font-size: 1.4rem;
+    display: block;
+    margin: 4% 5%;
+}
+.part2 .div{   
+    margin: 0 4%;
+    width: 400px;
+    display: inline-block;
+}
+img{
+    width: 100%;
+    height: 50vh;
+}
+
+/* image */
+.image{
+    background: url(cafe3.jpg) center center;
+    background-size: cover;
+    height: 50vh;
+}
+
+/* reservez */
+.reserve{
+    width: 70%;
+    margin: 7% auto;
+    text-align: center;
+}
+.reserve h2{
+    margin-bottom: 1rem;
+}
+.reserve .button{
+    background: #222;
+    color: whitesmoke;
+}
+
+/* footer */
+footer{
+    background-color: #222;
+    color: whitesmoke;
+    padding: 1.8rem;
+    text-align: center;
+}
+/* nous trouvez */
+.where{
+    overflow: auto;
+    padding: 100px 3%;
+    border-radius: 20px;
+    min-height: 80vh;
+}
+.where-image{
+    
+    width: 45%;
+    float: left;
+}
+.where-text{
+    width: 50%;
+    float: right;
+}
+/* contact */
+.contact{
+    height: 80vh;
+    margin: 0 15%;
+    
+}
+form h1{
+    margin: 1rem;
+}
+form{
+    width: 700Px;
+    padding: 1rem;
+}
+
+input{
+    margin: 1rem;
+    width: 100%;
+    padding: 1rem;
+    display: block;
+}
+textarea{
+    width: 100%;
+    height: 7rem;
+    display: block;
+    margin: 1rem;
+}
+form .button{
+    margin: 1rem;
+    background: #222;
+    color: whitesmoke;
+}
+.button:hover{
+    background-color: #555;
+}
